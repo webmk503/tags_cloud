@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a, :hover, :visited, :active, :focus{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+.cloud {
+  display: block;
+  width: 500px;
+}
+
+.cloud li {
+  display: inline;
+  color: black;
+}
+
+.cloud li :hover {
+  background: salmon;
+}
+
+.tag_page {
+  margin: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 1rem;
+
+}
